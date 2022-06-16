@@ -1,3 +1,7 @@
 # py_docker_example
 
-Want to build this set of files into an Image
+cloudbuild.json is only needed if building an image in GCP
+
+To build image in GCP Cloud Shell, clone this repo and run:
+>gcloud builds submit --config cloudbuild.json  .
+
