@@ -2,6 +2,12 @@
 ## More on Dockerfile commands: https://docs.docker.com/engine/reference/builder/#run
 
 
+
+# Identify the maintainer of an image
+LABEL maintainer="Adam Bricknell"
+
+
+
 # set linux version
 FROM ubuntu:18.04
 

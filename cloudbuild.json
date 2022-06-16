@@ -1,0 +1,13 @@
+{
+ "steps": [
+  {
+      "name": "gcr.io/cloud-builders/docker",
+      "args": [
+        "build",
+        "-t",
+        "europe-west2-docker.pkg.dev/dft-dst-prt-connectivitymetric/test-docker-repo/py_docker_example",
+        "."
+       ]
+   }
+   ]
+ }
