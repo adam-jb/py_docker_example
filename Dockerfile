@@ -3,10 +3,6 @@
 
 
 
-# Identify the maintainer of an image
-LABEL maintainer="Adam Bricknell"
-
-
 
 # set linux version
 FROM ubuntu:18.04
@@ -33,5 +29,10 @@ COPY . .
 # CMD is what's run once everything is provisioned
 CMD [ "python3 test.py"]
 
+
+
+
+# Identify the maintainer of an image
+LABEL maintainer="Adam Bricknell"
 
 
